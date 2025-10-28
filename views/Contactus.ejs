@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/contactus.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <%- include('partials/navbar')  %>
+    <div class="blue">
+        <div class="flex_column upcontainer">
+            <span class="upspan1">Get in Touch With ARC</span>
+            <span class="upspan2">Please help us know what requirements you have. Our team will contact you very soon.</span>
+        </div>
+        <div class="container">
+            <div class="subclass">
+                <div class="archhead">ARC-contact info</div>
+                <div class="arch2">Looking for any air quality monitoring Queries?</div>
+                <div class="flex justify-start svggap">
+                    <div class="phone"><span class="material-symbols-outlined footerimg" style="font-size: 30px;">
+                            call
+                        </span></div>
+                    <div class="flex_column gap3">
+                        <Span>Phone No</Span>
+                        <span>(+91)749963118</span>
+                    </div>
+                </div>
+
+                <div class="flex justify-start svggap">
+                    <div class="email"><span class="material-symbols-outlined" style="font-size: 30px;">
+                            mail
+                        </span></div>
+                    <div class="flex_column gap3">
+                        <span>Email Address</span>
+                        <span>Arcticarena@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="flex justify-start svggap">
+                    <div class="location"><span class="material-symbols-outlined" style="font-size: 30px;">
+                            location_on
+                        </span></div>
+                    <div class="flex_column gap3">
+                        <span>Location:</span>
+                        <span>PCCOE, Pune, Maharashtra, India.</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form1">
+                <form action="/Contactus" method="POST">
+                    <div class="m7 font-size18">Name:</div>
+                    <input class="ml7 inputwidth" type="text" name="name" placeholder="Enter your Name" >
+                    <div class="m7 ph_em">
+                        <span>
+                            <div class="mud7 font-size18">Phone no:</div>
+                            <input type="text" name="phoneNumber" name="phonenumber" placeholder="Enter your phone Nmber" >
+                        </span>
+                        <span>
+                            <div class="mud7 font-size18">Email:</div>
+                            <input type="text" name="email" name="Email" placeholder="Enter your Email">
+                        </span>
+                    </div>
+                    
+                    <div class="m7">
+                        <div class="mud7 font-size18">Purpose of Contact:</div>
+                        <div class="grey mud7">Data:
+                            <label for="weatherdata"  >
+                                <input type="radio" id="weather-data" name="weatherdata" value="weatherdata">
+                            weather-data
+                            </label>
+                            
+                            <label for="trafficdata" >
+                                <input type="radio" id="trafficdata" name="trafficdata" value="trafficdata">
+                                traffic-data
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="m7">
+                        <div class="mud7 font-size18">Write your message here:</div>
+                        <input type="text" placeholder="Write your message here" name="message" class="pd57 inputwidth">
+                    </div>
+                    <input class="m7 sub" type="submit" value="Send Message">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contactsecond"></div>
+
+
+    <%- include('partials/footer')  %>
+
+    <script src="script1.js">
+    </script>
+</body>
+
+</html>

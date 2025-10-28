@@ -1,0 +1,111 @@
+.navbar {
+    margin: 2px;
+    height: 8vh;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    font-size: larger;    
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.projectname img {
+    width: 140px;
+}
+
+.navbar button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #41cbf1;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+}
+
+.searchbar {
+    border: 0.1px solid grey;
+    border-radius: 4px;
+}
+
+.searchbar input {
+    padding: 2px;
+    border: none;
+    outline: none
+}
+
+.searchbar input:hover {
+    border: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.footer {
+    border-top: 0.1px solid grey;
+    width: 99%;
+    background-color: #f7f7fe;
+    margin-top: 2px;
+}
+
+.footername img{
+    width: 185px;
+    border-right: 2px solid grey;
+    background-color: #efeffb;
+}
+.footer ul{
+    list-style: none;
+}
+#map{
+    height: 414px;
+    width: 100%;
+}
+/* Optional: dark clean map style */
+.leaflet-tile {
+    filter: brightness(0.9) contrast(1.1);
+}
+
+/* Hide default zoom buttons if you want a cleaner look */
+.leaflet-control-zoom {
+    display: none;
+}
+
+.footerfirst{
+    font-weight: 1000;
+    padding-bottom: 2px;
+    color:#75787c;
+}
+.footerdivsvg{
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+   text-decoration:none;
+   color: black; 
+}

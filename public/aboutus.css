@@ -1,0 +1,72 @@
+.line {
+    border: 0.1px solid #a9a9a9;
+    margin-left: 74px;
+    width: 905px;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 74px;
+}
+
+.t1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.t2 {
+    font-size: 24px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+}
+
+.aboutusoutline {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    width: 925px;
+    margin-top: 40px;
+    margin-left: 74px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jhead {
+    margin-left: 104px;
+    padding: 20px;
+    width: 400px;
+    font-size: 26px;
+}
+
+.line1 {
+    width: 490px;
+    border: 0.1px solid grey;
+    /* margin-left: 386px; */
+}
+
+.jcontentdiv {
+    margin-top: 32px;
+    width: 500px;
+    /* margin-left: 380px; */
+    text-align: center;
+    font-size: 16px;
+}
+
+.aboutuscontent {
+    padding: 54px;
+    background-color: #f9f9f9;
+}
+
+.joacontent {
+    padding: 60px;
+    height: 300px;
+}
+.fontauto{
+    font-family: initial;
+}
+.imgarcaboutus img{
+    width:300px;
+}
