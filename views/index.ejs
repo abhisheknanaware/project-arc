@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODEL</title>
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+
+        <main class="content">
+            <div id="details-panel">
+                <h3>Location Details</h3>
+                <p>Click a circle on the map to see its data.</p>
+            </div>
+            <div id="map"></div>
+        </main>
+
+        <div id="data-card-section">
+            <h2>Predicted Data by Location</h2>
+            <div class="card-grid-container" id="card-grid">
+            </div>
+        </div>
+        </main>
+        </main>
+
+
+        <%- include('partials/footer') %>
+
+            <script src="/script.js"></script>
+
+            <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBprJXC9QB7NwR9vqg551mZWUaP06HlVH8&callback=initMap"
+                async defer></script>
+
+</body>
+
+</html>
